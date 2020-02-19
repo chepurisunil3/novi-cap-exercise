@@ -1,68 +1,31 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Description of task:
+    Novicap have a physical store and they have some products to sell. Novicap needs an interface where they can able to check the total cost of the products buying by the customer with the discounts they are providing. On checkout they can be able to understand the discounts applied on each product and grand total.
 
-## Available Scripts
+Features Added:
+    Add, remove, update products dynamically with the upload of JSON file.
+    Dynamic update of discount details for each product.
 
-In the project directory, you can run:
+Features that can be added:
+    Connection to database for the products and discount decreases less hard coding but now I've used json file and hardcoded the discounts. If the discounts details are taken from database, we can add discounts for any product. This is not done because I feel it needs more environment setup for database and interface to add,remove and update products to database(Admin panel).
 
-### `yarn start`
+Description of working:
+    By default the products details will be loaded from local JSON file and display them. When the customer buys some products which are available in the data, staff will adds the quantity of each products and the interface automatically updates whether the discount is added or not. Once the staff clicks the checkout, the grand total(with the discount)and what are the discounts added will be displayed.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    Staff can update,add,remove products with the upload of JSON file which is present below the header.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Technologies Used:
+    Environment - Node.js
+    React.js, HTML, CSS, Javascript
 
-### `yarn test`
+Instructions to run the code:
+    -> Make sure we have node.js and react.js installed.
+    -> If we doesn't have node.js installed, you can download it from https://nodejs.org/en/
+    -> If we doesn't have react.js installed, after node.js is installed, run the command 'npm install  -g create-react-app'
+    -> Paste the complete project in a directory.
+    -> Go the project root directory and run the command npm install or npm update.
+    -> Once the process is done run the command 'npm start'. The window will automatically opens in your default browser and process the exercise.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Code Description:
+    * Reusable Code
+    * clean Code with actual representation of what the particular task does.
+    * Easy to add new functionalities

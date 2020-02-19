@@ -1,0 +1,39 @@
+
+.sno {
+    float: left;
+    width: 5vw;
+    font-size: 1.2vw;
+    margin: 0.5vw;
+}
+.code,.name,.price {
+    float: left;
+    width: 15vw;
+    font-size: 1.2vw;
+    margin: 0.5vw;
+}
+.price span {
+    font-size: 0.8vw;
+    color: #00173f;
+}
+.count {
+    float: left;
+    width: 4vw;
+    font-size: 1.2vw;
+    text-align: center;
+    margin: 0.5vw;
+}
+.each-product .add-btn,.remove-btn {
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background: #00173f;
+    color: white;
+    border: none;
+    visibility: visible;
+    float: left;
+    margin: 0.5vw;
+}
+.each-product {
+    overflow: hidden;
+    margin:1vw 0 1vw 0;
+}

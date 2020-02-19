@@ -1,0 +1,49 @@
+.sno {
+    float: left;
+    width: 5vw;
+    font-size: 1.2vw;
+    margin: 0.5vw;
+}
+.code,.name,.price {
+    float: left;
+    width: 15vw;
+    font-size: 1.2vw;
+    margin: 0.5vw;
+}
+.count {
+    float: left;
+    width: 4vw;
+    font-size: 1.2vw;
+    text-align: center;
+    margin: 0.5vw;
+}
+.product-heading .add-btn-heading,.remove-btn-heading {
+    visibility: hidden;
+    margin: 0.5vw;
+    width: 2vw;
+    float: left;
+}
+.product-heading {
+    overflow: hidden;
+    margin:1vw 0 1vw 0;
+    
+}
+.complete-products {
+    margin-left: 17.5vw;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+    padding: 1vw;
+    overflow: hidden;
+    width: fit-content;
+    margin-top: 2vw;
+    border-radius: 5px;
+}
+.checkout-btn {
+    background: #00173f;
+    color: white;
+    border: none;
+    width: 15%;
+    margin-left: 42.5%;
+    border-radius: 3px;
+    padding: 0.5vw;
+    margin-top: 1vw;
+}
